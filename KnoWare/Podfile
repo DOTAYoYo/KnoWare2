@@ -1,0 +1,11 @@
+platform:ios, '8.0'
+use_frameworks!
+pod 'XLForm'
+pod 'AFNetworking', '~> 2.5'
+pod 'Color-Picker-for-iOS'
+pod 'HexColors'
+pod 'GoogleMaps'
+pod 'SMCalloutView'
+pod 'CustomIOSAlertView'
+pod 'MBLocationManager'
+pod 'ChameleonFramework'

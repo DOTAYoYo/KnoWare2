@@ -1,0 +1,13 @@
+PODS:
+  - CorePlot (2.0)
+  - DownPicker (0.1.34)
+
+DEPENDENCIES:
+  - CorePlot
+  - DownPicker
+
+SPEC CHECKSUMS:
+  CorePlot: b7f422ad363f2b0e48152471d6da45ce232eb8c6
+  DownPicker: c00ea63f08ae82116cc93d0eba74e86bf3d4c68e
+
+COCOAPODS: 0.39.0

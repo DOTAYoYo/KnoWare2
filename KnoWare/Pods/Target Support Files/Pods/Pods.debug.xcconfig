@@ -1,0 +1,8 @@
+FRAMEWORK_SEARCH_PATHS = $(inherited) "${PODS_ROOT}/GoogleMaps/Frameworks"
+GCC_PREPROCESSOR_DEFINITIONS = $(inherited) COCOAPODS=1
+HEADER_SEARCH_PATHS = $(inherited) "${PODS_ROOT}/Headers/Public" "${PODS_ROOT}/Headers/Public/GoogleMaps"
+LD_RUNPATH_SEARCH_PATHS = $(inherited) '@executable_path/Frameworks' '@loader_path/Frameworks'
+OTHER_CFLAGS = $(inherited) -iquote "$CONFIGURATION_BUILD_DIR/AFNetworking.framework/Headers" -iquote "$CONFIGURATION_BUILD_DIR/ChameleonFramework.framework/Headers" -iquote "$CONFIGURATION_BUILD_DIR/Color_Picker_for_iOS.framework/Headers" -iquote "$CONFIGURATION_BUILD_DIR/CustomIOSAlertView.framework/Headers" -iquote "$CONFIGURATION_BUILD_DIR/HexColors.framework/Headers" -iquote "$CONFIGURATION_BUILD_DIR/MBLocationManager.framework/Headers" -iquote "$CONFIGURATION_BUILD_DIR/SMCalloutView.framework/Headers" -iquote "$CONFIGURATION_BUILD_DIR/XLForm.framework/Headers" -isystem "${PODS_ROOT}/Headers/Public" -isystem "${PODS_ROOT}/Headers/Public/GoogleMaps"
+OTHER_LDFLAGS = $(inherited) -ObjC -l"c++" -l"icucore" -l"z" -framework "AFNetworking" -framework "AVFoundation" -framework "Accelerate" -framework "ChameleonFramework" -framework "Color_Picker_for_iOS" -framework "CoreBluetooth" -framework "CoreData" -framework "CoreGraphics" -framework "CoreLocation" -framework "CoreText" -framework "CustomIOSAlertView" -framework "GLKit" -framework "GoogleMaps" -framework "HexColors" -framework "ImageIO" -framework "MBLocationManager" -framework "OpenGLES" -framework "QuartzCore" -framework "SMCalloutView" -framework "Security" -framework "SystemConfiguration" -framework "XLForm"
+PODS_FRAMEWORK_BUILD_PATH = $(BUILD_DIR)/$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)/Pods
+PODS_ROOT = ${SRCROOT}/Pods
